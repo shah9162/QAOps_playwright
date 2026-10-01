@@ -81,6 +81,7 @@ documentLink.click()]); // new page is opened
  const text =await newPage.locator("p.red").textContent()
  const domain = text.split("@")[1].split(" ")[0];
  //console.log(domain);
+ //console.log(domain);
  
  await page.locator("#username").fill(domain);
  //await page.pause();
