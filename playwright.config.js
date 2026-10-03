@@ -17,7 +17,7 @@ reporter: 'html',
 
 use :{
   browserName : 'chromium',
-  headless: false,
+  headless: true,
   screenshot:'on',
   trace: 'retain-on-failure' //off, on, retain-on-failure
 }
