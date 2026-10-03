@@ -82,6 +82,7 @@ documentLink.click()]); // new page is opened
  const domain = text.split("@")[1].split(" ")[0];
  //console.log(domain);
  //console.log(domain);
+ // changes on rahul fixes branch
  
  await page.locator("#username").fill(domain);
  //await page.pause();
